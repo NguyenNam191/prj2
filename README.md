@@ -1,1 +1,4 @@
 # prj2
+1. Giới thiệu
+Dự án này sử dụng ESP32 và thư viện OneButton để điều khiển hai LED qua hai nút bấm. Mỗi nút bấm có cùng chức năng, người dùng có thể: Bật/tắt LED được chọn bằng single click.Chuyển đổi LED điều khiển (LED1 ↔ LED2) bằng double click. Kích hoạt chế độ nhấp nháy LED với chu kỳ 200ms bằng nhấn giữ (>1s). Dự án này được xây dựng trên PlatformIO + VS Code để quản lý code, build và upload chương trình lên kit ESP32. Phần cứng gồm có Kit ESP32 DevKit v12 2 LED ngoài, 2 nút nhấn, điện trở, breadboard và dây nối.
+Sử dụng: Upload code lên ESP32 qua VS Code + PlatformIO. Dùng 1 trong 2 nút bấm, nhấn 1 lần thì LED bật/tắt. Nhấn 2 lần liên tiếp thì chuyển LED điều khiển. Giữ lâu thì LED đang chọn nhấp nháy liên tục. 
